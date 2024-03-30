@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* *********Navbar********** */
+.mi-logo {
+  width: 50px;
+}
+.navbar-links a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.banner {
+  background-image: url(../public/Images/main-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vw;
+}
+.offer-sec {
+  background-color: #F7F7F7;
+}
+.offer-section img {
+  width: 25vw;
+}
+.offer-first {
+  line-height: 15px;
+}
+.offer-first button {
+  padding: 7px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.offer-mobile img {
+  height: 60px;
+  width: 60px;
+}
+/* ***********Third Section************* */
+.third-section {
+  background-color: #F7F7F7;
+}
+.third-banner p {
+  line-height: 9px;
+}
+.third-text {
+  line-height: 1vh;
+  font-size: 20vh;
+}
+.third-banner-one {
+  background-image: url(../public/Images/third-images.webp);
+  width: 100%;
+  height: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-banner-two {
+  background-image: url(../public/Images/Third-second-banner.webp);
+  width: 100%;
+  height: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-banner-two img {
+  height: 45vh;
+  width: 100%;
+}
+/* **************Offer Mobile Section****************** */
+.offer-sec img {
+  height: 200px;
+  width: 200px;
+}
+/* **********services************** */
+.services {
+  background-color: #F7F7F7;
+}
+.services img {
+  height: 150px;
+  width: 150px;
+}
+.services-item:hover {
+  color: rgb(228, 93, 93);
+}
+/* ************Footer************* */
+.footer {
+  background-color: gray;
+  padding-top: 2rem;
+}
+.list-item h4 {
+  color: white;
+}
+.list-item p:hover {
+  color: #F7F7F7;
+  text-decoration: underline;
+  cursor: pointer;
+}
