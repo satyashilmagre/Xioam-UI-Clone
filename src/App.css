@@ -94,11 +94,14 @@
 
 /* ************Footer************* */
 .footer {
-  background-color: gray;
+  background-color: #191919;
   padding-top: 2rem;
 }
 .list-item h4 {
-  color: white;
+  color: #FEFEFE;
+}
+.list-item p{
+  color: #767373;
 }
 .list-item p:hover {
   color: #F7F7F7;
