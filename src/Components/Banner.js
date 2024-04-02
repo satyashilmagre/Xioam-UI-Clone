@@ -6,7 +6,7 @@ const Banner = () => {
                 <div className='text-center'>
                     <h2>Xiomi Series</h2>
                     <p> Be A Class Apart</p>
-                    <button className='px-3 py-1 bg-black text-white rounded'>All xiomi Phones</button>
+                    <button className='px-3 py-1 bg-black text-white rounded'>All Xiomi Phones</button>
                 </div>
             </div>
             <div>

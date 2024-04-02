@@ -37,6 +37,7 @@
   height: 60px;
   width: 60px;
 }
+
 /* ***********Third Section************* */
 .third-section {
   background-color: #F7F7F7;
@@ -72,11 +73,13 @@
   height: 45vh;
   width: 100%;
 }
+
 /* **************Offer Mobile Section****************** */
 .offer-sec img {
   height: 200px;
   width: 200px;
 }
+
 /* **********services************** */
 .services {
   background-color: #F7F7F7;
@@ -88,6 +91,7 @@
 .services-item:hover {
   color: rgb(228, 93, 93);
 }
+
 /* ************Footer************* */
 .footer {
   background-color: gray;
@@ -100,4 +104,22 @@
   color: #F7F7F7;
   text-decoration: underline;
   cursor: pointer;
+}
+/* Media Queries */
+@media screen and (max-width:600px) {
+  .third-banner-two {
+    background-image: url(../public/Images/bannner-media.webp);
+    width: 100%;
+    height: 67vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .third-banner-one {
+    background-image: url(../public/Images/bannner-media.webp);
+    width: 100%;
+    height: 67vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.2rem;
+  }
 }

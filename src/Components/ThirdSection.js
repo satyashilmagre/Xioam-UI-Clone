@@ -2,7 +2,7 @@ import React from 'react';
 const ThirdSection = () => {
     return (
         <div className='third-section'>
-            <div className='text-center mt-5'>
+            <div className='text-center mt-4 pt-3'>
                 <h2>Redmi Series</h2>
                 <p>The Performance Racer</p>
                 <button className='px-3 py-1 text-white bg-black rounded'>All Redmi Phones</button>
@@ -15,7 +15,7 @@ const ThirdSection = () => {
                 </div>
             </div>
             <div className='container-fluid third-banner-two  '>
-                <div className='container text-start text-white fw-bold third-text '>
+                <div className='container text-white fw-bold third-text '>
                     <h2 className=' text-black'>Redmi Note 13 pro+ 5G</h2>
                     <h5 className='fw-normal'>Special Launch Price ₹.29,999*</h5>
                     <button className='btn bg-black text-white rounded mt-2'>Buy Now</button>
