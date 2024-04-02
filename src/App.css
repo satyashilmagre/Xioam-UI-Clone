@@ -105,6 +105,7 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
 /* Media Queries */
 @media screen and (max-width:600px) {
   .third-banner-two {
@@ -115,11 +116,20 @@
     background-size: cover;
   }
   .third-banner-one {
-    background-image: url(../public/Images/bannner-media.webp);
+    background-image: url(../public/Images/redmi-responsive.webp);
     width: 100%;
     height: 67vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0.2rem;
   }
+  .banner{
+    background-image: url(../public/Images/banner-first.webp);
+    width: 100%;
+    height: 67vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
 }

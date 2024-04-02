@@ -11,9 +11,9 @@ const Banner = () => {
             </div>
             <div>
                 <div className='d-flex justify-content-between align-items-center mt-4  banner'>
-                    <div className='container text-white mt-5' >
-                        <h4>The Pinnacle of SmartPhone Imagery </h4>
-                        <h5>Reserve Now at Ru.9,999</h5>
+                    <div className='container text-white' >
+                        <h4 className='h4'>The Pinnacle of SmartPhone Imagery </h4>
+                        <h5 className='h5'>Reserve Now at Ru.9,999</h5>
                         <button className='fw-normal fs-5 py-1 btn bg-white text-black rounded'>Reserve Now</button>
 
                     </div>
